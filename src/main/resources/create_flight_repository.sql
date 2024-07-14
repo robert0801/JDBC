@@ -10,7 +10,8 @@ CREATE TABLE airport
 CREATE TABLE aircraft
 (
     id SERIAL PRIMARY KEY ,
-    model VARCHAR(128) NOT NULL
+    model VARCHAR(128) NOT NULL,
+    image bytea
 );
 
 CREATE TABLE seat
